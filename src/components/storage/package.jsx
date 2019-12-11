@@ -4,7 +4,7 @@ const Package = (props) => {
     return (
         <div className={props.dynamicClass ? `flex flex-col w-full flex-wrap ${props.dynamicClass}`: 'flex flex-col w-full flex-wrap'}>
             <div className="flex flex-wrap flex-col md:flex-row mt-2">
-                <div className="flex flex-wrap bg-white border-b border-blue-tial-100 rounded-lg border-gray-400 md:w-full lg:w-full">
+                <div className={props.borderClass ? `flex flex-wrap bg-white ${props.borderClass} border-blue-tial-100 rounded-lg border-blue-500  md:w-full lg:w-full`: 'flex flex-wrap bg-white border-b border-blue-tial-100 rounded-lg border-blue-500  md:w-full lg:w-full'}>
                     <div className="flex w-full ">
                         <div className="flex items-center">
                             <div className="flex flex-col p-4">

@@ -41,7 +41,7 @@ class Storage extends Component {
                         <Signup />
                     </div>
                     <div className="w-1/2 h-auto">
-                        <Package dynamicClass={'mt-8'}/>
+                        <Package dynamicClass={'mt-8'} borderClass={'border'}/>
                         <Package />
                         <Package />
                     </div>

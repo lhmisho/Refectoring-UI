@@ -18,7 +18,7 @@ class Signup extends Component {
                         <input className="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-4 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="cus_name" name="cus_name" type="text" required="" placeholder="Card Number MM/YY CVC" aria-label="Name" />
                     </div>
                     <div class="mb-6">
-                        <button className="w-full px-4 py-1 text-white font-bold tracking-wider bg-gray-700 rounded" type="submit">Create account</button>
+                        <button className="w-full px-4 py-1 text-white font-bold tracking-wider bg-blue-500 rounded" type="submit">Create account</button>
                     </div>
                 </form>
             </div>
