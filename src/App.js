@@ -3,6 +3,7 @@ import Login from './components/auth/login'
 import SearchFlight from './components/flight/flight-search'
 import BG from './static/images/bg.jpg'
 import Storage from './components/storage'
+import Review from './components/review'
 
 class App extends React.Component {
   render() {
@@ -16,8 +17,11 @@ class App extends React.Component {
           </div>
         </div> */}
 
-        <div className="container mx-auto">
+        {/* <div className="container mx-auto">
           <Storage/>          
+        </div> */}
+        <div className="flex container mx-auto">
+          <Review />
         </div>
       </div>
     );
