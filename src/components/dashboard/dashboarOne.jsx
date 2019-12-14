@@ -197,6 +197,16 @@ class DashboardOne extends React.Component {
                                                     <div class="text-right">
                                                         0.0010 BTC
                 </div>
+                                        </div>
+                                        <div class="px-6 py-4">
+                                            <div class="text-center text-grey">
+                                                Total Balance &asymp; CA$21.28
+            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="w-full lg:w-1/2 px-4">
+                                    <div class="bg-white border-t border-b sm:rounded sm:border shadow">
                                                 </div>
                                                 <div class="w-1/2 px-4">
                                                     <div class="text-right text-grey">

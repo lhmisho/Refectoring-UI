@@ -4,7 +4,7 @@ import SearchFlight from './components/flight/flight-search'
 import BG from './static/images/bg.jpg'
 import Storage from './components/storage'
 import Review from './components/review'
-import DashboardOne from './components/dashboard/dashboarOne'
+import DashboardTwo from './components/dashboard/dashboardTwo/dashboard'
 class App extends React.Component {
   render() {
     return (
@@ -24,7 +24,7 @@ class App extends React.Component {
           <Review />
         </div> */}
         <div>
-          <DashboardOne />
+          <DashboardTwo />
         </div>
       </div>
     );
