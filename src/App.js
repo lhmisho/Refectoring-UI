@@ -4,7 +4,7 @@ import SearchFlight from './components/flight/flight-search'
 import BG from './static/images/bg.jpg'
 import Storage from './components/storage'
 import Review from './components/review'
-
+import DashboardOne from './components/dashboard/dashboarOne'
 class App extends React.Component {
   render() {
     return (
@@ -20,8 +20,11 @@ class App extends React.Component {
         {/* <div className="container mx-auto">
           <Storage/>          
         </div> */}
-        <div className="flex container mx-auto">
+        {/* <div className="flex container mx-auto">
           <Review />
+        </div> */}
+        <div>
+          <DashboardOne />
         </div>
       </div>
     );
