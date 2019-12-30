@@ -5,6 +5,8 @@ import BG from './static/images/bg.jpg'
 import Storage from './components/storage'
 import Review from './components/review'
 import DashboardTwo from './components/dashboard/dashboardTwo/dashboard'
+import MyHooks from './components/hooks'
+import MyReducer from './components/useReducer'
 class App extends React.Component {
   render() {
     return (
@@ -24,8 +26,10 @@ class App extends React.Component {
           <Review />
         </div> */}
         <div>
-          <DashboardTwo />
+          {/* <DashboardTwo /> */}
         </div>
+        {/* <MyHooks /> */}
+        <MyReducer />
       </div>
     );
   }
