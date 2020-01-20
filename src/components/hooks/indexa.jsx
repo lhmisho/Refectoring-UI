@@ -50,7 +50,7 @@ const MyHooks = props => {
             {errors && <h2>Maybe some error occureds ....</h2>}
             {posts.map((item, idx) => {
                 return (
-                    <h2>{item.title}</h2>
+                    <h2 key={idx}>{item.title}</h2>
                 )
             })}
         </>
