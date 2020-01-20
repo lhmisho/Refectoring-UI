@@ -5,11 +5,12 @@ import BG from './static/images/bg.jpg'
 import Storage from './components/storage'
 import Review from './components/review'
 import DashboardTwo from './components/dashboard/dashboardTwo/dashboard'
-import MyHooks from './components/hooks'
+import MyHooks from './components/hooks/indexa'
 import MyReducer from './components/useReducer'
 import HooksAndContext from './components/hooks_and_context'
 import { UserProvider } from './components/hooks_and_context/user_context'
 import DemoContextApi from './components/context_api'
+import Hooks from './components/hooks/test'
 class App extends React.Component {
   render() {
     return (
@@ -36,7 +37,8 @@ class App extends React.Component {
         {/* <UserProvider>
           <HooksAndContext />
         </UserProvider> */}
-        <DemoContextApi />
+        {/* <DemoContextApi /> */}
+        <Hooks />
       </div>
     );
   }
