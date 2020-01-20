@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './styles/tailwind.css';
+import './redux/store'
+// import User  from './api/user.api'
+
+// const user = new User()
+// user.getUser().then(users => console.log(users))
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

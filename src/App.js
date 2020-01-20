@@ -7,6 +7,9 @@ import Review from './components/review'
 import DashboardTwo from './components/dashboard/dashboardTwo/dashboard'
 import MyHooks from './components/hooks'
 import MyReducer from './components/useReducer'
+import HooksAndContext from './components/hooks_and_context'
+import { UserProvider } from './components/hooks_and_context/user_context'
+import DemoContextApi from './components/context_api'
 class App extends React.Component {
   render() {
     return (
@@ -29,7 +32,11 @@ class App extends React.Component {
           {/* <DashboardTwo /> */}
         </div>
         {/* <MyHooks /> */}
-        <MyReducer />
+        {/* <MyReducer /> */}
+        {/* <UserProvider>
+          <HooksAndContext />
+        </UserProvider> */}
+        <DemoContextApi />
       </div>
     );
   }
