@@ -12,6 +12,7 @@ import { UserProvider } from './components/hooks_and_context/user_context'
 import DemoContextApi from './components/context_api'
 import Hooks from './components/hooks/test'
 import Posts from './components/hooks/posts'
+import TestReducer from './components/reducer'
 class App extends React.Component {
   render() {
     return (
@@ -39,7 +40,9 @@ class App extends React.Component {
           <HooksAndContext />
         </UserProvider> */}
         {/* <DemoContextApi /> */}
-        <Posts />
+        {/* <Posts /> */}
+        <TestReducer />
+
       </div>
     );
   }
