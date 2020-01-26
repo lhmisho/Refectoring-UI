@@ -1,18 +1,20 @@
 import React from 'react';
-import Login from './components/auth/login'
-import SearchFlight from './components/flight/flight-search'
-import BG from './static/images/bg.jpg'
-import Storage from './components/storage'
-import Review from './components/review'
-import DashboardTwo from './components/dashboard/dashboardTwo/dashboard'
-import MyHooks from './components/hooks/indexa'
-import MyReducer from './components/useReducer'
-import HooksAndContext from './components/hooks_and_context'
-import { UserProvider } from './components/hooks_and_context/user_context'
-import DemoContextApi from './components/context_api'
-import Hooks from './components/hooks/test'
-import Posts from './components/hooks/posts'
-import TestReducer from './components/reducer'
+// import Login from './components/auth/login'
+// import SearchFlight from './components/flight/flight-search'
+// import BG from './static/images/bg.jpg'
+// import Storage from './components/storage'
+// import Review from './components/review'
+// import DashboardTwo from './components/dashboard/dashboardTwo/dashboard'
+// import MyHooks from './components/hooks/indexa'
+// import MyReducer from './components/useReducer'
+// import HooksAndContext from './components/hooks_and_context'
+// import { UserProvider } from './components/hooks_and_context/user_context'
+// import DemoContextApi from './components/context_api'
+// import Hooks from './components/hooks/test'
+// import Posts from './components/hooks/posts'
+// import TestReducer from './components/my_reducer'
+import NewReducer from './components/my_reducer/post'
+
 class App extends React.Component {
   render() {
     return (
@@ -40,9 +42,9 @@ class App extends React.Component {
           <HooksAndContext />
         </UserProvider> */}
         {/* <DemoContextApi /> */}
-        {/* <Posts /> */}
-        <TestReducer />
-
+         {/*<Posts />*/}
+        {/*<TestReducer />*/}
+        <NewReducer/>
       </div>
     );
   }

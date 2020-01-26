@@ -22,7 +22,7 @@ export const toggleFav = postId => ({
 
 export const startLoading = () => ({ type: START_LOADING })
 
-// reducer
+// my_reducer
 export const reducer = (state, action) => {
     switch (action.type) {
         case START_LOADING: {
