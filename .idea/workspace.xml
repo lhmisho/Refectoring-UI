@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76127844-5db8-49b4-9c7a-b805e77382dd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/my_reducer/post.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/reducer/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/my_reducer/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/useReducer/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/useReducer/reducer.js" afterDir="false" />
-    </list>
+    <list default="true" id="76127844-5db8-49b4-9c7a-b805e77382dd" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -23,7 +17,7 @@
       <file leaf-file-name="post.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/my_reducer/post.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-412">
+            <state relative-caret-position="830">
               <caret line="77" column="22" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="22" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
@@ -77,7 +71,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="30" />
     <option name="width" value="1600" />
     <option name="height" value="870" />
@@ -165,18 +159,17 @@
       <option name="presentableId" value="Default" />
       <updated>1579999723101</updated>
       <workItem from="1579999724956" duration="479000" />
-      <workItem from="1580000226396" duration="6652000" />
+      <workItem from="1580000226396" duration="6722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7131000" />
+    <option name="totallyTimeSpent" value="7201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1600" height="870" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -185,7 +178,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32963988" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32963988" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2867036" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -238,7 +231,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/my_reducer/post.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-412">
+        <state relative-caret-position="830">
           <caret line="77" column="22" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="22" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />

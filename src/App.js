@@ -12,9 +12,10 @@ import React from 'react';
 // import DemoContextApi from './components/context_api'
 // import Hooks from './components/hooks/test'
 // import Posts from './components/hooks/posts'
+import Posts from './components/hooks/indexa'
 // import TestReducer from './components/my_reducer'
 import NewReducer from './components/my_reducer/post'
-
+import HOC from './components/hoc/index'
 class App extends React.Component {
   render() {
     return (
@@ -42,9 +43,10 @@ class App extends React.Component {
           <HooksAndContext />
         </UserProvider> */}
         {/* <DemoContextApi /> */}
-         {/*<Posts />*/}
+         <Posts />
         {/*<TestReducer />*/}
-        <NewReducer/>
+        {/* <NewReducer/> */}
+        {/* <HOC /> */}
       </div>
     );
   }

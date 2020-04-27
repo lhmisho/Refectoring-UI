@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Axios from 'axios'
 
 const BASE_URL = 'https://jsonplaceholder.typicode.com/posts'
+
 const MyHooks = props => {
     const [count, setCount] = useState(0)
     const [age, setAge] = useState(22)
